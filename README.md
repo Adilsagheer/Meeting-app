@@ -1,4 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Meeting App
+
+A Google Meet–like video conferencing web application built with Next.js (App Router), JavaScript, Tailwind CSS, shadcn/ui, Firebase Authentication, MongoDB, Socket.IO, and WebRTC.
+
+## Features
+- User authentication (Firebase)
+- Persistent login (localStorage)
+- Dashboard for meetings
+- Real-time chat (Socket.IO)
+- Video/audio calls (WebRTC)
+- Screen sharing
+- Unique meeting links
+- Protected routes
+
+## Stack
+- Next.js (App Router, JavaScript)
+- Tailwind CSS & shadcn/ui
+- Firebase Auth
+- MongoDB (Mongoose)
+- Socket.IO
+- WebRTC
+
+## Setup
+1. Copy `.env.local` from the project description and fill in your credentials.
+2. Run `npm install` to install dependencies.
+3. Run `npm run dev` to start the development server.
+
+## Folder Structure
+- `components/` – Reusable UI components
+- `app/` – App Router pages and layouts
+- `lib/` – Library code (e.g., Firebase, Mongoose)
+- `utils/` – Utility functions
+
+---
+
+This project is modular, scalable, and user-friendly across all devices.
 
 ## Getting Started
 
