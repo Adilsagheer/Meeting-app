@@ -7,6 +7,7 @@ export async function POST(request) {
   const { code, host } = await request.json();
   const meeting = await Meeting.create({ code, host, participants: [host] });
   return NextResponse.json(meeting, { status: 201 });
+  
 }
 
 export async function GET(request) {
